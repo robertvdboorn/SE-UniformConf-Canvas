@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 9e5ba4fc-b542-40bf-9365-22772d6793c8
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: default.svg
+    file:
+      type: file
+      value: 4618b244-c8b2-4a4d-9c85-a39c066ff3cd
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/A6HDBPx2QN6FR5aoL-mrFw-default.svg
+      type: text
+    size:
+      value: 8836
+      type: number
+    width:
+      value: 561
+      type: number
+    height:
+      value: 560
+      type: number
+    custom: {}
+created: '2024-08-14T09:47:18.74416+00:00'
+modified: '2024-08-14T09:47:18.74416+00:00'

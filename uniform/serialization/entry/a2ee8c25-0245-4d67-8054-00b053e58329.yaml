@@ -1,0 +1,264 @@
+created: '2024-08-14T12:31:38.658131+00:00'
+modified: '2024-08-14T13:01:38.219974+00:00'
+pattern: false
+entry:
+  _id: a2ee8c25-0245-4d67-8054-00b053e58329
+  _name: 'Closing Keynote: Reflections and the Path Forward'
+  _slug: closing-keynote-reflections-and-the-path-forward
+  type: session
+  fields:
+    title:
+      type: text
+      value: 'Closing Keynote: Reflections and the Path Forward'
+    audience:
+      type: multi-select
+      value:
+        - developers
+        - marketers
+    duration:
+      type: number
+      value: '45'
+    speakers:
+      type: contentReference
+      value: ${#jptr:/ref-a2ee8c25-0245-4d67-8054-00b053e58329-speakers/entries}
+    description:
+      type: text
+      value: >-
+        Reflective closing keynote that highlights key insights and envisions
+        the future of digital strategy.
+    longDescription:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'As we wrap up the '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Uniform Conference
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ', join us for the '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: 'Closing Keynote: Reflections and the Path Forward'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    . This session will provide a comprehensive summary of the
+                    conference highlights and offer a forward-looking
+                    perspective on the future of digital strategy.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Our closing speaker
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    , a respected figure in the industry, will guide you
+                    through:
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Key Takeaways:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' A recap of the most impactful sessions, discussions, and innovations shared throughout the conference.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Future Trends:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' An exploration of emerging trends and how they will shape the future of digital experiences, including advancements in '
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                    - mode: normal
+                      text: personalization, edge computing
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ', and '
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                    - mode: normal
+                      text: omnichannel content delivery
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: .
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Strategic Insights:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' How to apply the knowledge and strategies discussed during the conference to your own projects and organizational goals.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Inspiration for Innovation:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Motivational insights to help you and your team continue to push boundaries and embrace new challenges.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    This closing keynote will be a moment to reflect on the
+                    collective learnings of the conference, gain inspiration for
+                    the future, and leave with a renewed sense of purpose and
+                    direction. 
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Don’t miss this opportunity
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' to connect with fellow attendees, reflect on the insights gained, and set the stage for continued success in your digital journey.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+          direction: ltr
+  _dataResources:
+    ref-a2ee8c25-0245-4d67-8054-00b053e58329-speakers:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 16fdd787-699d-46bc-8d2f-a7dd46ef94d0

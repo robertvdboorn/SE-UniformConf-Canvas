@@ -1,0 +1,214 @@
+created: '2024-08-14T12:31:39.570946+00:00'
+modified: '2024-08-14T13:00:00.81954+00:00'
+pattern: false
+entry:
+  _id: ed2dec98-f9d7-442f-bf01-011dcad60dba
+  _name: Streamlining Marketing Workflows with Uniform
+  _slug: streamlining-marketing-workflows-with-uniform
+  type: session
+  fields:
+    title:
+      type: text
+      value: Streamlining Marketing Workflows with Uniform
+    audience:
+      type: multi-select
+      value:
+        - marketers
+    duration:
+      type: number
+      value: '45'
+    speakers:
+      type: contentReference
+      value: ${#jptr:/ref-ed2dec98-f9d7-442f-bf01-011dcad60dba-speakers/entries}
+    description:
+      type: text
+      value: >-
+        Discover how Uniform can streamline your marketing workflows and improve
+        efficiency.
+    longDescription:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'This session will focus on how '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Uniform
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' can '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: streamline marketing workflows
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' and improve team efficiency. We will cover:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Workflow Challenges:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Common challenges in marketing workflows and how to address them.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Uniform’s Workflow Features:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' How Uniform’s platform supports streamlined workflows and task management.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Best Practices:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Tips and strategies for optimizing your marketing workflows using Uniform.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Interactive Demos:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Live demonstrations of Uniform’s workflow features and their impact on productivity.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 5
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Success Stories:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Examples of organizations that have successfully improved their marketing workflows with Uniform.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Optimize your marketing operations and enhance efficiency
+                    with Uniform’s workflow management features.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+          direction: ltr
+  _dataResources:
+    ref-ed2dec98-f9d7-442f-bf01-011dcad60dba-speakers:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 61dbef01-a620-4095-8ae3-37ef42bdb3fe

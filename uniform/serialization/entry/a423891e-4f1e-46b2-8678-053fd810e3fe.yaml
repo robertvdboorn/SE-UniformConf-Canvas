@@ -1,0 +1,15 @@
+created: '2024-08-14T12:55:32.456246+00:00'
+modified: '2024-08-14T12:55:44.602382+00:00'
+pattern: false
+entry:
+  _id: a423891e-4f1e-46b2-8678-053fd810e3fe
+  _name: Kate Butenko
+  _slug: kate-butenko
+  type: speaker
+  fields:
+    name:
+      type: text
+      value: Kate Butenko
+    title:
+      type: text
+      value: Head of Customer Success and Technical Services

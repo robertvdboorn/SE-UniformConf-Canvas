@@ -1,0 +1,216 @@
+created: '2024-08-14T12:31:37.847403+00:00'
+modified: '2024-08-14T13:02:54.484355+00:00'
+pattern: false
+entry:
+  _id: 37e371e0-655f-4f63-ac22-d8123e5049d9
+  _name: Enhancing Customer Journeys with Uniform’s Personalization
+  _slug: enhancing-customer-journeys-with-uniforms-personalization
+  type: session
+  fields:
+    title:
+      type: text
+      value: Enhancing Customer Journeys with Uniform’s Personalization Features
+    audience:
+      type: multi-select
+      value:
+        - marketers
+    duration:
+      type: number
+      value: '60'
+    speakers:
+      type: contentReference
+      value: ${#jptr:/ref-37e371e0-655f-4f63-ac22-d8123e5049d9-speakers/entries}
+    description:
+      type: text
+      value: >-
+        Learn how to enhance customer journeys through effective personalization
+        using Uniform.
+    longDescription:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'In this session, we’ll explore how to '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: enhance customer journeys
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' using '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Uniform’s personalization features
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: '. Topics include:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Personalization Overview:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Understand the role of personalization in shaping customer journeys.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Uniform’s Personalization Tools:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' How Uniform’s platform supports creating personalized experiences across various touchpoints.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Customer Journey Mapping:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Techniques for mapping and optimizing customer journeys with personalized content.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Best Practices:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Strategies for implementing effective personalization in your marketing efforts.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 5
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Examples and Case Studies:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Success stories showcasing the impact of personalized customer journeys.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Enhance your marketing strategy by mastering Uniform’s
+                    personalization tools to create more meaningful customer
+                    interactions.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+          direction: ltr
+  _dataResources:
+    ref-37e371e0-655f-4f63-ac22-d8123e5049d9-speakers:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          72c84a21-efbb-48d7-896e-0612f221e574,61dbef01-a620-4095-8ae3-37ef42bdb3fe

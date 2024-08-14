@@ -1,0 +1,34 @@
+composition:
+  _name: Page Template Pattern
+  _id: 779a5d02-bcb0-473d-bef8-39c6ef7714b6
+  type: page
+  slots:
+    footer:
+      - _id: f6d9e904-f7c9-47fb-9065-9dc94fd2174a
+        type: footer
+        _overridability:
+          hideLockedParameters: true
+    header:
+      - _id: c29df14e-bcc2-4205-a042-4a0f75004db8
+        type: header
+        _overridability:
+          hideLockedParameters: true
+    content:
+      - _id: 35fa4ccc-246f-4988-8415-3bf916ce7c6d
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Components
+          groupType:
+            type: text
+            value: inherit
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+    hideLockedParameters: true
+created: '2024-08-14T10:18:40.608991+00:00'
+modified: '2024-08-14T10:39:24.631416+00:00'
+pattern: true

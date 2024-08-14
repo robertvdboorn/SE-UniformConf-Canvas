@@ -1,0 +1,214 @@
+created: '2024-08-14T12:31:38.970973+00:00'
+modified: '2024-08-14T13:01:17.05523+00:00'
+pattern: false
+entry:
+  _id: d011dad2-3bf4-4d12-99e6-b65a20c20698
+  _name: Driving Engagement Through Data-Driven Marketing
+  _slug: driving-engagement-through-data-driven-marketing
+  type: session
+  fields:
+    title:
+      type: text
+      value: Driving Engagement Through Data-Driven Marketing
+    audience:
+      type: multi-select
+      value:
+        - marketers
+    duration:
+      type: number
+      value: '60'
+    speakers:
+      type: contentReference
+      value: ${#jptr:/ref-d011dad2-3bf4-4d12-99e6-b65a20c20698-speakers/entries}
+    description:
+      type: text
+      value: >-
+        Utilize data insights from Uniform to enhance your marketing strategies
+        and boost engagement.
+    longDescription:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'This session will demonstrate how to use '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Uniform’s data insights
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' to '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: enhance your marketing strategies
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: '. We will discuss:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Understanding Data Insights:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' How Uniform collects and analyzes marketing performance data.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Applying Data to Strategies:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Methods for using data insights to refine and improve your marketing strategies.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Personalization and Targeting:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Leverage data to create more targeted and personalized marketing campaigns.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Optimization Techniques:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Strategies for optimizing your marketing efforts based on performance data.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 5
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Real-World Examples:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Case studies of how data-driven insights have successfully shaped marketing strategies.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Learn to harness Uniform’s data insights to drive better
+                    marketing results and engage your audience more effectively.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+          direction: ltr
+  _dataResources:
+    ref-d011dad2-3bf4-4d12-99e6-b65a20c20698-speakers:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 72c84a21-efbb-48d7-896e-0612f221e574

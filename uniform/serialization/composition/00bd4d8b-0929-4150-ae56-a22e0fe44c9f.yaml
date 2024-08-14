@@ -1,0 +1,110 @@
+composition:
+  _name: For Marketers
+  _id: 00bd4d8b-0929-4150-ae56-a22e0fe44c9f
+  _slug: /marketers
+  type: page
+  parameters:
+    $enr:
+      type: $enr
+      value:
+        - cat: '1'
+          key: mkt
+          str: 1
+  slots:
+    footer:
+      - _id: 1e330664-39af-4904-a7ca-69bf6f349fbe
+        type: footer
+    header:
+      - _id: 638d48f0-5eb5-4585-bf35-86090d9b5c51
+        type: header
+    content:
+      - _id: a97e1afb-a1dd-4d79-8c5c-a17473f4710d
+        type: hero
+        _pattern: e3ae4319-3977-42d7-8c4a-54f928218ece
+      - _id: fdbf72cb-c520-40c1-8ee0-94324741784a
+        type: sessionList
+        _pattern: 1b4107d5-0b1b-49de-8d1c-d970b163ff35
+        _dataResources:
+          Session List Content:
+            type: sessionList
+            variables:
+              search: ''
+              filters: >-
+                {"type[eq]":"session","fields.audience[eq]":"marketers","fields.audience[neq]":"developers"}
+              orderBy: updated_at_ASC
+              contentTypes: session
+  _overrides:
+    a97e1afb-a1dd-4d79-8c5c-a17473f4710d:
+      parameters:
+        name:
+          type: text
+          value: Marketer Greeting
+        text:
+          type: text
+          value: >-
+            This page is tagged with an enrichment for marketers, meaning a
+            score of 50 for the marketer enrichment was added to the current
+            visitor profile. You should start seeing content targeted at
+            marketers now.
+        image:
+          type: asset
+          value:
+            - _id: 0a0c2248-a572-4244-bd3c-45b8319fa292
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 85679786-30c3-4dfc-a727-463452cc2a25
+                url:
+                  type: text
+                  value: >-
+                    https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/tEA9MhRXQBKHN9QOvmVODw-marketer.svg
+                file:
+                  type: file
+                  value: 0f12d2ec-0c55-49a0-aeec-8d3103c4b513
+                size:
+                  type: number
+                  value: 7021
+                title:
+                  type: text
+                  value: marketer.svg
+                width:
+                  type: number
+                  value: 560
+                height:
+                  type: number
+                  value: 560
+                mediaType:
+                  type: text
+                  value: image/svg+xml
+              _source: uniform-assets
+        title:
+          type: text
+          value: Alrighty, you are more of a marketer now! ✅
+    fdbf72cb-c520-40c1-8ee0-94324741784a:
+      parameters:
+        title:
+          type: text
+          value: Our conference sessions for Marketers
+    a97e1afb-a1dd-4d79-8c5c-a17473f4710d|b55cf945-850c-443d-b215-2040d0ea34ec:
+      slots:
+        $slotSectionItems:
+          - _id: 6a58a4a7-f66a-4ea0-a29b-00480e673adc
+            type: button
+            parameters:
+              link:
+                type: link
+                value:
+                  path: /
+                  type: projectMapNode
+                  nodeId: f377116a-9d20-4b67-8fe2-b9bf3aa15bdf
+                  projectMapId: 83b7d143-c8f3-4d6c-9987-0e3a1cbdb1cd
+              name:
+                type: text
+                value: Homepage Button
+              text:
+                type: text
+                value: Go Home
+created: '2024-08-14T08:46:48.756103+00:00'
+modified: '2024-08-14T12:43:12.92947+00:00'
+pattern: false

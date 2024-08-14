@@ -1,0 +1,15 @@
+created: '2024-08-14T12:56:46.558859+00:00'
+modified: '2024-08-14T13:47:07.998993+00:00'
+pattern: false
+entry:
+  _id: 240e68c5-9df6-43c5-8e73-3cdef27bfc52
+  _name: Robert van den Boorn
+  _slug: robert-van-den-boorn
+  type: speaker
+  fields:
+    name:
+      type: text
+      value: Robert van den Boorn
+    title:
+      type: text
+      value: Solution Engineer

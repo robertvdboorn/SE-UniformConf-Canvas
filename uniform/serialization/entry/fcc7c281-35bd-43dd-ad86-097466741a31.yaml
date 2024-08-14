@@ -1,0 +1,209 @@
+created: '2024-08-14T12:31:40.181137+00:00'
+modified: '2024-08-14T12:58:50.801454+00:00'
+pattern: false
+entry:
+  _id: fcc7c281-35bd-43dd-ad86-097466741a31
+  _name: Leveraging Edge Computing for Fast Content Delivery
+  _slug: leveraging-edge-computing-for-fast-content-delivery
+  type: session
+  fields:
+    title:
+      type: text
+      value: Leveraging Edge Computing for Fast Content Delivery
+    audience:
+      type: multi-select
+      value:
+        - developers
+    duration:
+      type: number
+      value: '60'
+    speakers:
+      type: contentReference
+      value: ${#jptr:/ref-fcc7c281-35bd-43dd-ad86-097466741a31-speakers/entries}
+    description:
+      type: text
+      value: >-
+        Discover how to use edge computing to improve the performance and
+        scalability of your applications.
+    longDescription:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    In this session, we'll explore the benefits and
+                    implementation of 
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: edge computing
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' to enhance content delivery and application performance. Topics covered will include:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'What is Edge Computing?:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' An overview of edge computing and its role in modern web applications.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Integrating with Uniform:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' How to leverage Uniform’s edge capabilities to optimize content delivery.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Performance Optimization:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Techniques for improving load times and scalability using edge networks like '
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                    - mode: normal
+                      text: Edgio, Cloudflare,
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' and '
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                    - mode: normal
+                      text: Akamai
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: .
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Case Studies:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Real-world examples of successful edge computing implementations.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Learn how to harness the power of edge computing to deliver
+                    faster, more reliable experiences to your users.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+          direction: ltr
+  _dataResources:
+    ref-fcc7c281-35bd-43dd-ad86-097466741a31-speakers:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: fee494ff-1b7d-4709-a664-724025c2a088

@@ -1,0 +1,15 @@
+created: '2024-08-14T12:57:29.59664+00:00'
+modified: '2024-08-14T12:57:43.689382+00:00'
+pattern: false
+entry:
+  _id: 61dbef01-a620-4095-8ae3-37ef42bdb3fe
+  _name: Peter Fogelsanger
+  _slug: peter-fogelsanger
+  type: speaker
+  fields:
+    name:
+      type: text
+      value: Peter Fogelsanger
+    title:
+      type: text
+      value: Head of Strategic Enablement

@@ -1,0 +1,15 @@
+created: '2024-08-14T12:55:10.263038+00:00'
+modified: '2024-08-14T12:55:26.547198+00:00'
+pattern: false
+entry:
+  _id: fee494ff-1b7d-4709-a664-724025c2a088
+  _name: Artem Nizelnyk
+  _slug: artem-nizelnyk
+  type: speaker
+  fields:
+    name:
+      type: text
+      value: Artem Nizelnyk
+    title:
+      type: text
+      value: Senior Solution Architect

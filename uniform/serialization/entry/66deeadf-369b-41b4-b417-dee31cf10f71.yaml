@@ -1,0 +1,15 @@
+created: '2024-08-14T12:54:45.993751+00:00'
+modified: '2024-08-14T13:18:11.424724+00:00'
+pattern: false
+entry:
+  _id: 66deeadf-369b-41b4-b417-dee31cf10f71
+  _name: Alex Shyba
+  _slug: alex-shyba
+  type: speaker
+  fields:
+    name:
+      type: text
+      value: Alex Shyba
+    title:
+      type: text
+      value: CTO & Founder

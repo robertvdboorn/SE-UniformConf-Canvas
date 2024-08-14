@@ -1,0 +1,87 @@
+id: session
+name: Session
+created: '2024-08-14T12:31:36.381597+00:00'
+updated: '2024-08-14T12:58:20.606221+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+    localizable: false
+  - id: duration
+    name: Duration
+    type: number
+    helpText: ''
+    typeConfig:
+      max: '90'
+      min: '30'
+    localizable: false
+  - id: audience
+    name: Audience
+    type: multi-select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Developers
+          value: developers
+        - text: Marketers
+          value: marketers
+    localizable: false
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig:
+      required: false
+      multiline: true
+      linesCount: 2
+    localizable: false
+  - id: longDescription
+    name: Long Description
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: false
+  - id: speakers
+    name: Speaker(s)
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - speaker
+    localizable: false
+entryName: title
+description: ''
+icon: add-r
+type: contentType
+permissions: []

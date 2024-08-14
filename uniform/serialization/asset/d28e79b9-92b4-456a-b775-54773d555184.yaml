@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d28e79b9-92b4-456a-b775-54773d555184
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: registered.svg
+    file:
+      type: file
+      value: b189d0e9-3cc7-46b8-b749-19f47c88bbbe
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/DYxZXe0aT42wMityQSglZA-registered.svg
+      type: text
+    size:
+      value: 9703
+      type: number
+    width:
+      value: 560
+      type: number
+    height:
+      value: 560
+      type: number
+    custom: {}
+created: '2024-08-14T09:46:04.338112+00:00'
+modified: '2024-08-14T09:46:04.338112+00:00'

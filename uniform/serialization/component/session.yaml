@@ -1,0 +1,50 @@
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: session
+name: Session
+icon: add-r
+parameters:
+  - id: title
+    name: Title
+    type: text
+    typeConfig:
+      required: true
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+      multiline: true
+      linesCount: 2
+    localizable: false
+  - id: audience
+    name: Audience
+    type: multi-select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Developers
+          value: developers
+        - text: Marketers
+          value: marketers
+    localizable: false
+  - id: link
+    name: Link
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        tel: false
+        url: false
+        email: false
+    localizable: false
+categoryId: 83b414db-ed2f-4780-b2b2-bf5103041b41
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1721648863/Wise/Screenshot_2024-07-22_at_13.44.11_ghevwi.png
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2024-08-14T12:31:26.449501+00:00'
+updated: '2024-08-14T12:47:58.327557+00:00'

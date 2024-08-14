@@ -1,0 +1,183 @@
+created: '2024-08-14T12:31:37.656734+00:00'
+modified: '2024-08-14T13:03:09.75026+00:00'
+pattern: false
+entry:
+  _id: 13b1be79-92c8-400f-997d-3b104da7a790
+  _name: Using Uniform Canvas for Visual Development
+  _slug: using-uniform-canvas-for-visual-development
+  type: session
+  fields:
+    title:
+      type: text
+      value: Using Uniform Canvas for Visual Development
+    audience:
+      type: multi-select
+      value:
+        - developers
+    duration:
+      type: number
+      value: '45'
+    speakers:
+      type: contentReference
+      value: ${#jptr:/ref-13b1be79-92c8-400f-997d-3b104da7a790-speakers/entries}
+    description:
+      type: text
+      value: >-
+        Explore how to use Uniform Canvas to streamline visual development and
+        content management.
+    longDescription:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'This session will introduce you to '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Uniform Canvas
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    , focusing on how to use its visual editing features for
+                    effective development and content management. Key points
+                    include:
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Visual Development:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' How to leverage Canvas for designing and managing digital experiences without writing code.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Integration with Existing Projects:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Techniques for incorporating Canvas into your existing development workflow.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Best Practices:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Tips for maximizing the efficiency of visual development and content updates.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Interactive Demonstrations:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Live examples showcasing Canvas in action.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Learn how to use Canvas to simplify your development process
+                    and enhance your content management capabilities.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+          direction: ltr
+  _dataResources:
+    ref-13b1be79-92c8-400f-997d-3b104da7a790-speakers:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          240e68c5-9df6-43c5-8e73-3cdef27bfc52,734219e7-87e0-443b-96ed-464de95f39df

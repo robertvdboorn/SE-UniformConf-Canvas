@@ -1,0 +1,178 @@
+created: '2024-08-14T12:31:38.54996+00:00'
+modified: '2024-08-14T13:01:49.419197+00:00'
+pattern: false
+entry:
+  _id: a977cacf-b08d-4ee6-9cdd-3aa9b397ceb2
+  _name: 'Mastering Next.js with Uniform: From Development to'
+  _slug: mastering-nextjs-with-uniform-from-development-to
+  type: session
+  fields:
+    title:
+      type: text
+      value: 'Mastering Next.js with Uniform: From Development to Deployment'
+    audience:
+      type: multi-select
+      value:
+        - developers
+    duration:
+      type: number
+      value: '60'
+    speakers:
+      type: contentReference
+      value: ${#jptr:/ref-a977cacf-b08d-4ee6-9cdd-3aa9b397ceb2-speakers/entries}
+    description:
+      type: text
+      value: >-
+        Dive deep into integrating Next.js with Uniform for seamless development
+        and deployment.
+    longDescription:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    In this session, we'll explore how to harness the full power
+                    of 
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Next.js
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' in conjunction with '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Uniform
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    . Learn how to efficiently build and deploy high-performance
+                    web applications using Next.js, leveraging Uniform’s
+                    capabilities for:
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Content Management:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' How to integrate Uniform''s CMS with Next.js for dynamic content delivery.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Personalization:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Implementing advanced personalization strategies using Uniform’s context capabilities.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Deployment:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Best practices for deploying Next.js applications to various platforms, including Vercel and Netlify.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Join us to discover how to streamline your development
+                    workflow and optimize your application’s performance while
+                    maintaining flexibility and scalability.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+          direction: ltr
+  _dataResources:
+    ref-a977cacf-b08d-4ee6-9cdd-3aa9b397ceb2-speakers:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: b0e88e80-b0f2-4dd9-bf81-68872d88278f

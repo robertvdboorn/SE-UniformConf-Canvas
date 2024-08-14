@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: ee8dbd90-8569-49f8-ad3e-c65a54cee65c
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: presentation.webp
+    file:
+      type: file
+      value: dedbfcf2-141c-4b11-a6dc-94ceae2b9e7c
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/mMP0jT8zRIqSsqN0UxJ9gg-presentation.webp
+      type: text
+    size:
+      value: 19592
+      type: number
+    width:
+      value: 640
+      type: number
+    height:
+      value: 426
+      type: number
+    custom: {}
+created: '2024-08-14T10:14:34.302766+00:00'
+modified: '2024-08-14T10:14:34.302766+00:00'

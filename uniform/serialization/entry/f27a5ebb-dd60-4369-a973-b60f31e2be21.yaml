@@ -1,0 +1,191 @@
+created: '2024-08-14T12:31:39.551414+00:00'
+modified: '2024-08-14T13:00:12.121771+00:00'
+pattern: false
+entry:
+  _id: f27a5ebb-dd60-4369-a973-b60f31e2be21
+  _name: Effective Campaign Tracking and Performance Analysis with
+  _slug: effective-campaign-tracking-and-performance-analysis-with
+  type: session
+  fields:
+    title:
+      type: text
+      value: Effective Campaign Tracking and Performance Analysis with Uniform
+    audience:
+      type: multi-select
+      value:
+        - marketers
+    duration:
+      type: number
+      value: '45'
+    speakers:
+      type: contentReference
+      value: ${#jptr:/ref-f27a5ebb-dd60-4369-a973-b60f31e2be21-speakers/entries}
+    description:
+      type: text
+      value: ' Learn how to track and analyze your marketing campaigns’ performance using Uniform.'
+    longDescription:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Join us to explore how '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Uniform
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' can help you '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: track and analyze marketing campaigns
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' effectively. Topics include:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Campaign Tracking Basics:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' How to track key metrics and performance indicators using Uniform.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Analysis Techniques:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Methods for analyzing campaign data to assess performance and identify areas for improvement.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Optimization Strategies:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Techniques for refining and optimizing campaigns based on performance analysis.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Case Studies:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Real-world examples of successful campaign tracking and analysis using Uniform.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Enhance your marketing efforts by mastering the art of
+                    tracking and analyzing campaign performance with Uniform.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+          direction: ltr
+  _dataResources:
+    ref-f27a5ebb-dd60-4369-a973-b60f31e2be21-speakers:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 16fdd787-699d-46bc-8d2f-a7dd46ef94d0

@@ -1,0 +1,33 @@
+composition:
+  _name: Hero Pattern
+  _id: e3ae4319-3977-42d7-8c4a-54f928218ece
+  type: hero
+  slots:
+    buttons:
+      - _id: b55cf945-850c-443d-b215-2040d0ea34ec
+        type: $slotSection
+        parameters:
+          max:
+            type: text
+            value: 3
+          min:
+            type: text
+            value: 0
+          name:
+            type: text
+            value: Buttons
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      name: 'yes'
+      text: 'yes'
+      image: 'yes'
+      title: 'yes'
+      buttonText: 'no'
+    hideLockedParameters: true
+created: '2024-08-14T09:38:21.126833+00:00'
+modified: '2024-08-14T13:08:23.644777+00:00'
+pattern: true
+categoryId: 83b414db-ed2f-4780-b2b2-bf5103041b41

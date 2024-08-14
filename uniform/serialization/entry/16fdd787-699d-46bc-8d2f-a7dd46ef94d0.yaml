@@ -1,0 +1,15 @@
+created: '2024-08-14T12:54:26.440198+00:00'
+modified: '2024-08-14T12:54:39.894734+00:00'
+pattern: false
+entry:
+  _id: 16fdd787-699d-46bc-8d2f-a7dd46ef94d0
+  _name: Lars Petersen
+  _slug: lars-petersen
+  type: speaker
+  fields:
+    name:
+      type: text
+      value: Lars Petersen
+    title:
+      type: text
+      value: CEO & Founder

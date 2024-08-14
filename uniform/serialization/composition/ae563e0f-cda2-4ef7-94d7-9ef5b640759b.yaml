@@ -1,0 +1,109 @@
+composition:
+  _name: For Developers
+  _id: ae563e0f-cda2-4ef7-94d7-9ef5b640759b
+  _slug: /developers
+  type: page
+  parameters:
+    $enr:
+      type: $enr
+      value:
+        - cat: '1'
+          key: dev
+          str: 1
+  slots:
+    footer:
+      - _id: 5e3e50bc-0375-4b90-a799-35553df2a407
+        type: footer
+    header:
+      - _id: d37aa56b-f25f-4dff-bb45-f1f49dff6d94
+        type: header
+    content:
+      - _id: b4799613-291e-4095-915a-8634fef1ccfb
+        type: hero
+        _pattern: e3ae4319-3977-42d7-8c4a-54f928218ece
+      - _id: b5a4277e-666f-4138-ac45-334d6ab1305c
+        type: sessionList
+        _pattern: 1b4107d5-0b1b-49de-8d1c-d970b163ff35
+        _dataResources:
+          Session List Content:
+            type: sessionList
+            variables:
+              search: ''
+              filters: >-
+                {"type[eq]":"session","fields.audience[eq]":"developers","fields.audience[neq]":"marketers"}
+              orderBy: updated_at_ASC
+              contentTypes: session
+  _overrides:
+    b4799613-291e-4095-915a-8634fef1ccfb:
+      parameters:
+        name:
+          type: text
+          value: Developer Greeting
+        text:
+          type: text
+          value: >-
+            This page is tagged with developer enrichment, meaning score 50 for
+            developer enrichment was added to the current visitor profile. You
+            should be seeing more developer content now.
+        image:
+          type: asset
+          value:
+            - _id: ce2ee8d5-d03a-4f3b-ac06-4014cc46dc6e
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 383a0cdd-606a-4132-bae5-2477d67e1a71
+                url:
+                  type: text
+                  value: >-
+                    https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/OFPHLwKAQ5u-5_o6hnDwcQ-developer.svg
+                file:
+                  type: file
+                  value: 32b53d39-e824-4170-8aae-8fcd38213838
+                size:
+                  type: number
+                  value: 2440
+                title:
+                  type: text
+                  value: developer.svg
+                width:
+                  type: number
+                  value: 560
+                height:
+                  type: number
+                  value: 560
+                mediaType:
+                  type: text
+                  value: image/svg+xml
+              _source: uniform-assets
+        title:
+          type: text
+          value: Ok, you are more of a developer now ✅
+    b5a4277e-666f-4138-ac45-334d6ab1305c:
+      parameters:
+        title:
+          type: text
+          value: Our conference sessions for Developers
+    b4799613-291e-4095-915a-8634fef1ccfb|b55cf945-850c-443d-b215-2040d0ea34ec:
+      slots:
+        $slotSectionItems:
+          - _id: b18d28fd-7e07-4e37-98c1-f995f987bfd8
+            type: button
+            parameters:
+              link:
+                type: link
+                value:
+                  path: /
+                  type: projectMapNode
+                  nodeId: f377116a-9d20-4b67-8fe2-b9bf3aa15bdf
+                  projectMapId: 83b7d143-c8f3-4d6c-9987-0e3a1cbdb1cd
+              name:
+                type: text
+                value: Homepage Button
+              text:
+                type: text
+                value: Go Home
+created: '2024-08-14T08:46:48.55481+00:00'
+modified: '2024-08-14T12:41:42.314003+00:00'
+pattern: false

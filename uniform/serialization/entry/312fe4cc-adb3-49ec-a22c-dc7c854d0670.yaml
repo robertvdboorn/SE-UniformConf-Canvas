@@ -1,0 +1,181 @@
+created: '2024-08-14T12:31:37.952415+00:00'
+modified: '2024-08-14T13:02:43.328501+00:00'
+pattern: false
+entry:
+  _id: 312fe4cc-adb3-49ec-a22c-dc7c854d0670
+  _name: Creating Reusable Components with Uniform
+  _slug: creating-reusable-components-with-uniform
+  type: session
+  fields:
+    title:
+      type: text
+      value: Creating Reusable Components with Uniform
+    audience:
+      type: multi-select
+      value:
+        - developers
+    duration:
+      type: number
+      value: '60'
+    speakers:
+      type: contentReference
+      value: ${#jptr:/ref-312fe4cc-adb3-49ec-a22c-dc7c854d0670-speakers/entries}
+    description:
+      type: text
+      value: >-
+        Learn how to create and manage reusable components using Uniform’s
+        platform.
+    longDescription:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'In this session, we’ll cover the creation and management of '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: reusable components
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' with Uniform. Topics include:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Component Design:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Best practices for designing modular and reusable components.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Integration with Uniform:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' How to integrate these components into your Uniform-powered projects.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Managing Components:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Techniques for organizing and maintaining a library of components.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Real-World Use Cases:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Examples of successful component libraries and their impact.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Discover how to build a robust component system that
+                    enhances your development efficiency and project
+                    scalability.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+          direction: ltr
+  _dataResources:
+    ref-312fe4cc-adb3-49ec-a22c-dc7c854d0670-speakers:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          734219e7-87e0-443b-96ed-464de95f39df,e42c4a62-779a-43fc-969e-4720f9eabe23

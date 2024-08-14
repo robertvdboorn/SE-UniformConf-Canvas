@@ -1,0 +1,179 @@
+created: '2024-08-14T12:31:39.75543+00:00'
+modified: '2024-08-14T12:59:22.789347+00:00'
+pattern: false
+entry:
+  _id: f143d8ec-702e-43e2-9a41-fb2671c71e45
+  _name: Optimizing Performance with Uniform’s Mesh Capabilities
+  _slug: optimizing-performance-with-uniforms-mesh-capabilities
+  type: session
+  fields:
+    title:
+      type: text
+      value: Optimizing Performance with Uniform’s Mesh Capabilities
+    audience:
+      type: multi-select
+      value:
+        - developers
+    duration:
+      type: number
+      value: '45'
+    speakers:
+      type: contentReference
+      value: ${#jptr:/ref-f143d8ec-702e-43e2-9a41-fb2671c71e45-speakers/entries}
+    description:
+      type: text
+      value: >-
+        Enhance your application’s performance using Uniform’s Mesh
+        capabilities.
+    longDescription:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'This session will explore how to use '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Uniform’s Mesh capabilities
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' to optimize application performance. Topics include:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Introduction to Uniform Mesh:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Understand the features and benefits of Mesh for performance optimization.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Integration Techniques:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' How to integrate Mesh into your development workflow.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Performance Metrics:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Measuring and analyzing the impact of Mesh on application performance.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Case Studies:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Examples of performance improvements achieved through Mesh.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Learn how to leverage Mesh to boost your application’s speed
+                    and reliability.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+          direction: ltr
+  _dataResources:
+    ref-f143d8ec-702e-43e2-9a41-fb2671c71e45-speakers:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: e42c4a62-779a-43fc-969e-4720f9eabe23

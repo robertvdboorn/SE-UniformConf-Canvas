@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 383a0cdd-606a-4132-bae5-2477d67e1a71
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: developer.svg
+    file:
+      type: file
+      value: 32b53d39-e824-4170-8aae-8fcd38213838
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/OFPHLwKAQ5u-5_o6hnDwcQ-developer.svg
+      type: text
+    size:
+      value: 2440
+      type: number
+    width:
+      value: 560
+      type: number
+    height:
+      value: 560
+      type: number
+    custom: {}
+created: '2024-08-14T09:46:04.338112+00:00'
+modified: '2024-08-14T09:46:04.338112+00:00'

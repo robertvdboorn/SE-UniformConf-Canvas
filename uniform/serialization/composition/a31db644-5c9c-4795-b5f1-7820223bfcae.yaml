@@ -1,0 +1,45 @@
+composition:
+  _name: Dynamic Session Page
+  _id: a31db644-5c9c-4795-b5f1-7820223bfcae
+  _slug: ':session-slug'
+  type: page
+  _dataResources:
+    Session by Slug Content:
+      type: sessionBySlug
+      variables:
+        slug: ${session-slug}
+        locale: ''
+  _overrides:
+    a31db644-5c9c-4795-b5f1-7820223bfcae|35fa4ccc-246f-4988-8415-3bf916ce7c6d:
+      slots:
+        $slotSectionItems:
+          - _id: >-
+              a31db644-5c9c-4795-b5f1-7820223bfcae|d981b1dc-bb9e-4812-a2f2-2687c2c897ed
+            type: sessionDetail
+            parameters:
+              title:
+                type: text
+                value: ${#jptr:/Session by Slug Content/entry/fields/title/value}
+              audience:
+                type: multi-select
+                value: ${#jptr:/Session by Slug Content/entry/fields/audience/value}
+              duration:
+                type: number
+                value: ${#jptr:/Session by Slug Content/entry/fields/duration/value}
+              speakers:
+                type: json
+                value: ${#jptr:/Session by Slug Content/entry/fields/speakers/value}
+              description:
+                type: text
+                value: >-
+                  ${#jptr:/Session by Slug
+                  Content/entry/fields/description/value}
+              longDescription:
+                type: richText
+                value: >-
+                  ${#jptr:/Session by Slug
+                  Content/entry/fields/longDescription/value}
+  _pattern: 779a5d02-bcb0-473d-bef8-39c6ef7714b6
+created: '2024-08-14T12:49:01.413365+00:00'
+modified: '2024-08-14T13:12:59.186678+00:00'
+pattern: false

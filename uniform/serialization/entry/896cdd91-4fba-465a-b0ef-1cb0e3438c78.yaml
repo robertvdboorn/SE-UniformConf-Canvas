@@ -1,0 +1,201 @@
+created: '2024-08-14T12:31:38.358787+00:00'
+modified: '2024-08-14T13:02:09.559343+00:00'
+pattern: false
+entry:
+  _id: 896cdd91-4fba-465a-b0ef-1cb0e3438c78
+  _name: Mastering Personalization Strategies with Uniform Context
+  _slug: mastering-personalization-strategies-with-uniform-context
+  type: session
+  fields:
+    title:
+      type: text
+      value: Mastering Personalization Strategies with Uniform Context
+    audience:
+      type: multi-select
+      value:
+        - marketers
+    duration:
+      type: number
+      value: '60'
+    speakers:
+      type: contentReference
+      value: ${#jptr:/ref-896cdd91-4fba-465a-b0ef-1cb0e3438c78-speakers/entries}
+    description:
+      type: text
+      value: >-
+        Learn how to implement advanced personalization techniques using
+        Uniform’s context capabilities.
+    longDescription:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'In this session, we’ll explore how to harness '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Uniform’s context features
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' to create highly personalized marketing experiences.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Personalization Basics:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Understand the fundamentals of personalization and its importance in today’s digital marketing landscape.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Uniform’s Context Features:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Dive into how Uniform enables dynamic content personalization based on user data and behavior.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Implementation Strategies:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Discover effective methods for integrating context-driven personalization into your marketing campaigns.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Measurement and Optimization:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Learn how to track and optimize your personalization efforts to enhance engagement and conversions.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 5
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Success Stories:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Review real-world examples of brands that have successfully leveraged Uniform for personalized marketing.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Unlock the potential of personalization with Uniform to
+                    create more engaging and targeted marketing strategies.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+          direction: ltr
+  _dataResources:
+    ref-896cdd91-4fba-465a-b0ef-1cb0e3438c78-speakers:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          a423891e-4f1e-46b2-8678-053fd810e3fe,fee494ff-1b7d-4709-a664-724025c2a088

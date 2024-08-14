@@ -1,0 +1,97 @@
+import {
+	ComponentProps,
+	getParameterAttributes,
+	registerUniformComponent,
+} from "@uniformdev/canvas-react";
+import { ProjectMapLink } from "lib/types";
+import React from "react";
+
+export type SessionProps = ComponentProps<{
+	title: string;
+	description: string;
+	audience: string | string[];
+	link?: ProjectMapLink;
+}>;
+
+const Session = ({
+	title,
+	description,
+	audience,
+	link,
+	component,
+}: SessionProps) => {
+	const audienceName = Array.isArray(audience)
+		? audience.length > 1
+			? "Everyone"
+			: audience[0]
+		: audience;
+
+	return (
+		<div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow space-y-2 pt-2">
+			<div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden">
+				<div className="mt-3 mb-3 flex items-center justify-start">
+					<AudienceLabel audienceName={audienceName} />
+				</div>
+			</div>
+			<a
+				href={link ? link.path : "#"}
+				className="flex flex-wrap no-underline hover:no-underline"
+			>
+				<div
+					{...getParameterAttributes({
+						component,
+						id: "title",
+						placeholder: "Session title",
+					})}
+					className="w-full font-bold text-xl text-gray-800 px-6"
+				>
+					{title}
+				</div>
+			</a>
+			<div
+				{...getParameterAttributes({
+					component,
+					id: "description",
+					placeholder: "Session description",
+				})}
+				className="text-gray-800 px-6 pb-6 text-sm"
+			>
+				{description}
+			</div>
+		</div>
+	);
+};
+
+export interface AudienceLabelProps {
+	audienceName?: string;
+}
+
+const AudienceLabel: React.FC<AudienceLabelProps> = ({ audienceName }) => {
+	if (!audienceName) {
+		return null;
+	}
+
+	const formattedAudienceName =
+		audienceName.charAt(0).toUpperCase() + audienceName.slice(1);
+
+	let labelStyle = "bg-red-100 text-red-800";
+	if (formattedAudienceName === "Developers") {
+		labelStyle = "bg-green-100 text-green-800";
+	} else if (formattedAudienceName === "Marketers") {
+		labelStyle = "bg-indigo-100 text-indigo-800";
+	}
+	return (
+		<span
+			className={`ml-6 px-6 inline-flex text-xs leading-5 font-semibold rounded-full ${labelStyle}`}
+		>
+			{formattedAudienceName}
+		</span>
+	);
+};
+
+registerUniformComponent({
+	type: "session",
+	component: Session,
+});
+
+export default Session;

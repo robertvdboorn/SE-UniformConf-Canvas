@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 85679786-30c3-4dfc-a727-463452cc2a25
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: marketer.svg
+    file:
+      type: file
+      value: 0f12d2ec-0c55-49a0-aeec-8d3103c4b513
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/tEA9MhRXQBKHN9QOvmVODw-marketer.svg
+      type: text
+    size:
+      value: 7021
+      type: number
+    width:
+      value: 560
+      type: number
+    height:
+      value: 560
+      type: number
+    custom: {}
+created: '2024-08-14T09:46:04.338112+00:00'
+modified: '2024-08-14T09:46:04.338112+00:00'

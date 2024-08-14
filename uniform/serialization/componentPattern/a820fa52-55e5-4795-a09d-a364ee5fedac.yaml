@@ -1,0 +1,37 @@
+composition:
+  _name: Session Entry Pattern
+  _id: a820fa52-55e5-4795-a09d-a364ee5fedac
+  type: session
+  parameters:
+    link:
+      type: link
+      value:
+        path: /sessions/${#jptr:/Session Content/entry/_slug}
+        type: projectMapNode
+        nodeId: 9edde2b2-7f8b-4c20-b881-1610fac53114
+        projectMapId: 83b7d143-c8f3-4d6c-9987-0e3a1cbdb1cd
+        dynamicInputValues:
+          session-slug: ${#jptr:/Session Content/entry/_slug}
+    title:
+      type: text
+      value: ${#jptr:/Session Content/entry/fields/title/value}
+    audience:
+      type: multi-select
+      value: ${#jptr:/Session Content/entry/fields/audience/value}
+    description:
+      type: text
+      value: ${#jptr:/Session Content/entry/fields/description/value}
+  _dataResources:
+    Session Content:
+      type: session
+      variables:
+        entryId: bc4d7172-2cab-46e4-86cc-e7d368367529
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+    hideLockedParameters: true
+created: '2024-08-14T12:31:27.907959+00:00'
+modified: '2024-08-14T13:20:11.808202+00:00'
+pattern: true

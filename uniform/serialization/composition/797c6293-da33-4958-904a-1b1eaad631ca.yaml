@@ -1,0 +1,897 @@
+composition:
+  _name: Homepage
+  _id: 797c6293-da33-4958-904a-1b1eaad631ca
+  _slug: homepage
+  type: page
+  _overrides:
+    797c6293-da33-4958-904a-1b1eaad631ca|12e91020-80fb-4053-97a1-876562246993:
+      parameters:
+        name:
+          type: text
+          value: Hero shown to Attendees
+        text:
+          type: text
+          value: Now check out the conference sessions and add them to your agenda
+        image:
+          type: asset
+          value:
+            - _id: ddc1750f-2548-4359-a694-6b0310c32108
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 9d718dbe-89f7-47eb-9dba-ab34f79a3f8a
+                url:
+                  type: text
+                  value: >-
+                    https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/A9y5ggNPQtGNyhwpdvV7VQ-success.svg
+                file:
+                  type: file
+                  value: 31ba531f-90ab-4837-8990-5cb6c96764f8
+                size:
+                  type: number
+                  value: 8721
+                title:
+                  type: text
+                  value: success.svg
+                width:
+                  type: number
+                  value: 560
+                height:
+                  type: number
+                  value: 560
+                mediaType:
+                  type: text
+                  value: image/svg+xml
+              _source: uniform-assets
+        title:
+          type: text
+          value: Thank you for joining!
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: registrationComplete
+                r: '1'
+                op: '>='
+            name: ''
+    797c6293-da33-4958-904a-1b1eaad631ca|3286e30f-00c7-4f45-b3e3-6c1e9d7d5c2d:
+      parameters:
+        name:
+          type: text
+          value: Hero shown to Marketers
+        text:
+          type: text
+          value: We think you may be a marketer. This might be of interest to you!
+        image:
+          type: asset
+          value:
+            - _id: ccadbc92-7e9a-4f17-8574-12e3da651b6f
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 85679786-30c3-4dfc-a727-463452cc2a25
+                url:
+                  type: text
+                  value: >-
+                    https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/tEA9MhRXQBKHN9QOvmVODw-marketer.svg
+                file:
+                  type: file
+                  value: 0f12d2ec-0c55-49a0-aeec-8d3103c4b513
+                size:
+                  type: number
+                  value: 7021
+                title:
+                  type: text
+                  value: marketer.svg
+                width:
+                  type: number
+                  value: 560
+                height:
+                  type: number
+                  value: 560
+                mediaType:
+                  type: text
+                  value: image/svg+xml
+              _source: uniform-assets
+        title:
+          type: text
+          value: Howdy, Marketer!
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: 1_mkt
+                r: '1'
+                op: '>='
+              - l: 1_mkt
+                op: +
+            name: 'Hero: Hero shown to Developers'
+    797c6293-da33-4958-904a-1b1eaad631ca|35fa4ccc-246f-4988-8415-3bf916ce7c6d:
+      slots:
+        $slotSectionItems:
+          - _id: >-
+              797c6293-da33-4958-904a-1b1eaad631ca|5395f191-8542-48e9-9197-d6b2bee82063
+            type: $personalization
+            slots:
+              pz:
+                - _id: >-
+                    797c6293-da33-4958-904a-1b1eaad631ca|4f67a266-6413-41a8-875e-c41ae79ada38
+                  type: hero
+                  _pattern: e3ae4319-3977-42d7-8c4a-54f928218ece
+                  _overridability:
+                    parameters:
+                      $viz: 'yes'
+                      name: 'yes'
+                      text: 'yes'
+                      image: 'yes'
+                      title: 'yes'
+                      buttonText: 'no'
+                    hideLockedParameters: true
+                - _id: >-
+                    797c6293-da33-4958-904a-1b1eaad631ca|12e91020-80fb-4053-97a1-876562246993
+                  type: hero
+                  _pattern: e3ae4319-3977-42d7-8c4a-54f928218ece
+                  _overridability:
+                    parameters:
+                      $viz: 'yes'
+                      name: 'yes'
+                      text: 'yes'
+                      image: 'yes'
+                      title: 'yes'
+                      buttonText: 'no'
+                    hideLockedParameters: true
+                - _id: >-
+                    797c6293-da33-4958-904a-1b1eaad631ca|d720a1f7-22ef-4f93-ac29-7eb29f1d450a
+                  type: hero
+                  _pattern: e3ae4319-3977-42d7-8c4a-54f928218ece
+                  _overridability:
+                    parameters:
+                      $viz: 'yes'
+                      name: 'yes'
+                      text: 'yes'
+                      image: 'yes'
+                      title: 'yes'
+                      buttonText: 'no'
+                    hideLockedParameters: true
+                - _id: >-
+                    797c6293-da33-4958-904a-1b1eaad631ca|52800bf1-bfd0-41b4-a783-03af6704f87c
+                  type: hero
+                  _pattern: e3ae4319-3977-42d7-8c4a-54f928218ece
+                  _overridability:
+                    parameters:
+                      $viz: 'yes'
+                      name: 'yes'
+                      text: 'yes'
+                      image: 'yes'
+                      title: 'yes'
+                      buttonText: 'no'
+                    hideLockedParameters: true
+                - _id: >-
+                    797c6293-da33-4958-904a-1b1eaad631ca|3286e30f-00c7-4f45-b3e3-6c1e9d7d5c2d
+                  type: hero
+                  _pattern: e3ae4319-3977-42d7-8c4a-54f928218ece
+                  _overridability:
+                    parameters:
+                      $viz: 'yes'
+                      name: 'yes'
+                      text: 'yes'
+                      image: 'yes'
+                      title: 'yes'
+                      buttonText: 'no'
+                    hideLockedParameters: true
+                - _id: >-
+                    797c6293-da33-4958-904a-1b1eaad631ca|695d57f4-921f-42eb-9959-1ca883966319
+                  type: hero
+                  _pattern: e3ae4319-3977-42d7-8c4a-54f928218ece
+                  _overridability:
+                    parameters:
+                      $viz: 'yes'
+                      name: 'yes'
+                      text: 'yes'
+                      image: 'yes'
+                      title: 'yes'
+                      buttonText: 'no'
+                    hideLockedParameters: true
+            parameters:
+              trackingEventName:
+                type: text
+                value: Homepage Heroes
+          - _id: >-
+              797c6293-da33-4958-904a-1b1eaad631ca|1e0f51cd-7de0-4b75-8a44-aa17752efc95
+            type: $personalization
+            slots:
+              pz:
+                - _id: >-
+                    797c6293-da33-4958-904a-1b1eaad631ca|635c799d-06d1-44fd-9a4d-339709e28cde
+                  type: sessionList
+                  _pattern: 1b4107d5-0b1b-49de-8d1c-d970b163ff35
+                  _dataResources:
+                    Session List Content:
+                      type: sessionList
+                      variables:
+                        limit: '6'
+                        search: ''
+                        filters: '{"type[eq]":"session"}'
+                        orderBy: updated_at_DESC
+                        contentTypes: session
+                  _overridability:
+                    parameters:
+                      $viz: 'yes'
+                      title: 'yes'
+                    hideLockedParameters: true
+                - _id: >-
+                    797c6293-da33-4958-904a-1b1eaad631ca|493654e8-9bfc-4a0e-be76-8d8cc1b8af72
+                  type: sessionList
+                  _pattern: 1b4107d5-0b1b-49de-8d1c-d970b163ff35
+                  _dataResources:
+                    Session List Content:
+                      type: sessionList
+                      variables:
+                        limit: '6'
+                        search: ''
+                        filters: >-
+                          {"type[eq]":"session","fields.audience[eq]":"marketers","fields.audience[neq]":"developers"}
+                        contentTypes: session
+                  _overridability:
+                    parameters:
+                      $viz: 'yes'
+                      title: 'yes'
+                    hideLockedParameters: true
+                - _id: >-
+                    797c6293-da33-4958-904a-1b1eaad631ca|8956a99f-12b8-45f9-8094-f403b66712b1
+                  type: sessionList
+                  _pattern: 1b4107d5-0b1b-49de-8d1c-d970b163ff35
+                  _dataResources:
+                    Session List Content:
+                      type: sessionList
+                      variables:
+                        limit: '6'
+                        search: ''
+                        filters: >-
+                          {"type[eq]":"session","fields.audience[eq]":"developers","fields.audience[neq]":"marketers"}
+                        contentTypes: session
+                  _overridability:
+                    parameters:
+                      $viz: 'yes'
+                      title: 'yes'
+                    hideLockedParameters: true
+                - _id: >-
+                    797c6293-da33-4958-904a-1b1eaad631ca|871a2c02-1a78-4315-917d-9692de9f1b8e
+                  type: sessionList
+                  _pattern: 1b4107d5-0b1b-49de-8d1c-d970b163ff35
+                  _dataResources:
+                    Session List Content:
+                      type: sessionList
+                      variables:
+                        search: ''
+                        filters: >-
+                          {"type[eq]":"session","fields.audience[eq]":"marketers","fields.title[match]":"Keynote"}
+                        orderBy: name_DESC
+                        contentTypes: session
+                  _overridability:
+                    parameters:
+                      $viz: 'yes'
+                      title: 'yes'
+                    hideLockedParameters: true
+            parameters:
+              trackingEventName:
+                type: text
+                value: Homepage Session Lists
+          - _id: >-
+              797c6293-da33-4958-904a-1b1eaad631ca|9abc7aaf-5011-4ab7-8101-d1f92d1b1667
+            type: $test
+            slots:
+              test:
+                - _id: >-
+                    797c6293-da33-4958-904a-1b1eaad631ca|b873184e-80c1-4aa4-aaf5-f6b9ab6f0177
+                  type: whyAttend
+                  variant: whyattendright
+                  parameters:
+                    name:
+                      type: text
+                      value: Why Attend Right
+                    text:
+                      type: richText
+                      value:
+                        root:
+                          type: root
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - type: paragraph
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - mode: normal
+                                  text: "This conference has something to offer\_"
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                                - mode: normal
+                                  text: developers
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 1
+                                  version: 1
+                                - mode: normal
+                                  text: "\_and\_"
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                                - mode: normal
+                                  text: marketers
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 1
+                                  version: 1
+                                - mode: normal
+                                  text: "\_alike. From basics to advanced, learn more about:"
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                              direction: ltr
+                              textFormat: 0
+                            - tag: ol
+                              type: list
+                              start: 1
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: listitem
+                                  value: 1
+                                  format: left
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Enterprise JAMstack Personalization
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                - type: listitem
+                                  value: 2
+                                  format: left
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Uniform Personalization
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                - type: listitem
+                                  value: 3
+                                  format: left
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Uniform DXP
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                              listType: number
+                              direction: ltr
+                            - type: paragraph
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - mode: normal
+                                  text: >-
+                                    Expand your knowledge on these subjects and
+                                    engage with professionals from all over the
+                                    world.
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                              direction: ltr
+                              textFormat: 0
+                          direction: ltr
+                    image:
+                      type: asset
+                      value:
+                        - _id: 204f1e78-3d24-4752-b8f0-44693ab47058
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: ee8dbd90-8569-49f8-ad3e-c65a54cee65c
+                            url:
+                              type: text
+                              value: >-
+                                https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/mMP0jT8zRIqSsqN0UxJ9gg-presentation.webp
+                            file:
+                              type: file
+                              value: dedbfcf2-141c-4b11-a6dc-94ceae2b9e7c
+                            size:
+                              type: number
+                              value: 19592
+                            title:
+                              type: text
+                              value: presentation.webp
+                            width:
+                              type: number
+                              value: 640
+                            height:
+                              type: number
+                              value: 426
+                            mediaType:
+                              type: text
+                              value: image/webp
+                          _source: uniform-assets
+                    title:
+                      type: text
+                      value: Why You Should Attend
+                    $tstVrnt:
+                      type: testVariant
+                      value:
+                        id: A
+                        testDistribution: 50
+                - _id: >-
+                    797c6293-da33-4958-904a-1b1eaad631ca|7c965469-3d1c-4a04-aee0-70378c0586ea
+                  type: whyAttend
+                  variant: whyattendleft
+                  parameters:
+                    name:
+                      type: text
+                      value: Why Attend Left
+                    text:
+                      type: richText
+                      value:
+                        root:
+                          type: root
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - type: paragraph
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - mode: normal
+                                  text: "This conference has something to offer\_"
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                                - mode: normal
+                                  text: developers
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 1
+                                  version: 1
+                                - mode: normal
+                                  text: "\_and\_"
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                                - mode: normal
+                                  text: marketers
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 1
+                                  version: 1
+                                - mode: normal
+                                  text: "\_alike. From basics to advanced, learn more about:"
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                              direction: ltr
+                              textFormat: 0
+                            - tag: ol
+                              type: list
+                              start: 1
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: listitem
+                                  value: 1
+                                  format: left
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Enterprise JAMstack Personalization
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                - type: listitem
+                                  value: 2
+                                  format: left
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Uniform Personalization
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                - type: listitem
+                                  value: 3
+                                  format: left
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Uniform DXP
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                              listType: number
+                              direction: ltr
+                            - type: paragraph
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - mode: normal
+                                  text: >-
+                                    Expand your knowledge on these subjects and
+                                    engage with professionals from all over the
+                                    world.
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                              direction: ltr
+                              textFormat: 0
+                          direction: ltr
+                    image:
+                      type: asset
+                      value:
+                        - _id: 1839c5d0-b42c-4e68-be01-4de712c186e7
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: ee8dbd90-8569-49f8-ad3e-c65a54cee65c
+                            url:
+                              type: text
+                              value: >-
+                                https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/mMP0jT8zRIqSsqN0UxJ9gg-presentation.webp
+                            file:
+                              type: file
+                              value: dedbfcf2-141c-4b11-a6dc-94ceae2b9e7c
+                            size:
+                              type: number
+                              value: 19592
+                            title:
+                              type: text
+                              value: presentation.webp
+                            width:
+                              type: number
+                              value: 640
+                            height:
+                              type: number
+                              value: 426
+                            mediaType:
+                              type: text
+                              value: image/webp
+                          _source: uniform-assets
+                    title:
+                      type: text
+                      value: Why You Should Attend
+                    $tstVrnt:
+                      type: testVariant
+                      value:
+                        id: B
+                        testDistribution: 50
+            parameters:
+              test:
+                type: testSelect
+                value: whyAttendTest
+    797c6293-da33-4958-904a-1b1eaad631ca|493654e8-9bfc-4a0e-be76-8d8cc1b8af72:
+      parameters:
+        title:
+          type: text
+          value: Personalized sessions for Marketers
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: 1_mkt
+                op: +
+              - l: 1_mkt
+                r: '1'
+                op: '>='
+            name: 'Session List: Personalized sessions for Developers'
+    797c6293-da33-4958-904a-1b1eaad631ca|4f67a266-6413-41a8-875e-c41ae79ada38:
+      parameters:
+        name:
+          type: text
+          value: Hero shown for Campaign Visitors
+        text:
+          type: text
+          value: We can't wait to receive your session submission!
+        image:
+          type: asset
+          value:
+            - _id: 97da7bd9-f220-421d-aa0c-35a865371a3e
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: d28e79b9-92b4-456a-b775-54773d555184
+                url:
+                  type: text
+                  value: >-
+                    https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/DYxZXe0aT42wMityQSglZA-registered.svg
+                file:
+                  type: file
+                  value: b189d0e9-3cc7-46b8-b749-19f47c88bbbe
+                size:
+                  type: number
+                  value: 9703
+                title:
+                  type: text
+                  value: registered.svg
+                width:
+                  type: number
+                  value: 560
+                height:
+                  type: number
+                  value: 560
+                mediaType:
+                  type: text
+                  value: image/svg+xml
+              _source: uniform-assets
+        title:
+          type: text
+          value: Call for papers are open now!
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: callForPapers
+                r: '1'
+                op: '>='
+            name: 'Hero: Hero shown for Campaign Visitors'
+    797c6293-da33-4958-904a-1b1eaad631ca|52800bf1-bfd0-41b4-a783-03af6704f87c:
+      parameters:
+        name:
+          type: text
+          value: Hero shown to Developers
+        text:
+          type: text
+          value: We think you may be a developer. This might be of interest to you!
+        image:
+          type: asset
+          value:
+            - _id: 44ebd15b-1db6-4705-84ac-8c3c74767680
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 383a0cdd-606a-4132-bae5-2477d67e1a71
+                url:
+                  type: text
+                  value: >-
+                    https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/OFPHLwKAQ5u-5_o6hnDwcQ-developer.svg
+                file:
+                  type: file
+                  value: 32b53d39-e824-4170-8aae-8fcd38213838
+                size:
+                  type: number
+                  value: 2440
+                title:
+                  type: text
+                  value: developer.svg
+                width:
+                  type: number
+                  value: 560
+                height:
+                  type: number
+                  value: 560
+                mediaType:
+                  type: text
+                  value: image/svg+xml
+              _source: uniform-assets
+        title:
+          type: text
+          value: Hey, developer!
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: 1_dev
+                r: '1'
+                op: '>='
+              - l: 1_dev
+                op: +
+            name: 'Hero: Hero shown to Developers'
+    797c6293-da33-4958-904a-1b1eaad631ca|635c799d-06d1-44fd-9a4d-339709e28cde:
+      parameters:
+        title:
+          type: text
+          value: Personalized sessions for Mixed Visitors
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: 1_mkt
+                op: +
+              - l: 1_mkt
+                r: '1'
+                op: '>='
+              - l: 1_dev
+                op: +
+              - l: 1_dev
+                r: '1'
+                op: '>='
+            name: 'Session List: Personalized sessions for Developers'
+    797c6293-da33-4958-904a-1b1eaad631ca|695d57f4-921f-42eb-9959-1ca883966319:
+      parameters:
+        name:
+          type: text
+          value: Hero shown to Unknown Visitors
+        text:
+          type: text
+          value: >-
+            Whether you are a developer or a marketer, we have great sessions
+            for you.
+        image:
+          type: asset
+          value:
+            - _id: 9a96c37a-ae37-4c1f-8273-20d5693dd05a
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 9e5ba4fc-b542-40bf-9365-22772d6793c8
+                url:
+                  type: text
+                  value: >-
+                    https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/A6HDBPx2QN6FR5aoL-mrFw-default.svg
+                file:
+                  type: file
+                  value: 4618b244-c8b2-4a4d-9c85-a39c066ff3cd
+                size:
+                  type: number
+                  value: 8836
+                title:
+                  type: text
+                  value: default.svg
+                width:
+                  type: number
+                  value: 561
+                height:
+                  type: number
+                  value: 560
+                mediaType:
+                  type: text
+                  value: image/svg+xml
+              _source: uniform-assets
+        title:
+          type: text
+          value: Welcome to the Uniform Conference
+        $pzCrit:
+          type: $pzCrit
+          value: null
+    797c6293-da33-4958-904a-1b1eaad631ca|871a2c02-1a78-4315-917d-9692de9f1b8e:
+      parameters:
+        title:
+          type: text
+          value: Our conference sessions for Everyone
+    797c6293-da33-4958-904a-1b1eaad631ca|8956a99f-12b8-45f9-8094-f403b66712b1:
+      parameters:
+        title:
+          type: text
+          value: Personalized sessions for Developers
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: 1_dev
+                op: +
+              - l: 1_dev
+                r: '1'
+                op: '>='
+            name: 'Session List: Personalized sessions for Developers'
+    797c6293-da33-4958-904a-1b1eaad631ca|d720a1f7-22ef-4f93-ac29-7eb29f1d450a:
+      parameters:
+        name:
+          type: text
+          value: Hero shown to Mixed Visitors
+        text:
+          type: text
+          value: >-
+            Your behavior interest indicates that you have a keen interest in
+            both marketing and development. That's why you are seeing this.
+        image:
+          type: asset
+          value:
+            - _id: ddc1750f-2548-4359-a694-6b0310c32108
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 9d718dbe-89f7-47eb-9dba-ab34f79a3f8a
+                url:
+                  type: text
+                  value: >-
+                    https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/A9y5ggNPQtGNyhwpdvV7VQ-success.svg
+                file:
+                  type: file
+                  value: 31ba531f-90ab-4837-8990-5cb6c96764f8
+                size:
+                  type: number
+                  value: 8721
+                title:
+                  type: text
+                  value: success.svg
+                width:
+                  type: number
+                  value: 560
+                height:
+                  type: number
+                  value: 560
+                mediaType:
+                  type: text
+                  value: image/svg+xml
+              _source: uniform-assets
+        title:
+          type: text
+          value: Hello there!
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: 1_dev
+                r: '1'
+                op: '>='
+              - l: 1_mkt
+                r: '1'
+                op: '>='
+              - l: 1_dev
+                op: +
+              - l: 1_mkt
+                op: +
+            name: ''
+  _pattern: 779a5d02-bcb0-473d-bef8-39c6ef7714b6
+created: '2024-08-14T10:19:45.010146+00:00'
+modified: '2024-08-14T14:53:12.972274+00:00'
+pattern: false

@@ -1,0 +1,15 @@
+created: '2024-08-14T12:56:18.411988+00:00'
+modified: '2024-08-14T12:56:29.323651+00:00'
+pattern: false
+entry:
+  _id: b0e88e80-b0f2-4dd9-bf81-68872d88278f
+  _name: Ilyas Amezouar
+  _slug: ilyas-amezouar
+  type: speaker
+  fields:
+    name:
+      type: text
+      value: Ilyas Amezouar
+    title:
+      type: text
+      value: Staff Engineer

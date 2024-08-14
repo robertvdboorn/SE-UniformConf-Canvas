@@ -1,0 +1,15 @@
+created: '2024-08-14T12:57:08.947162+00:00'
+modified: '2024-08-14T13:53:00.951959+00:00'
+pattern: false
+entry:
+  _id: 72c84a21-efbb-48d7-896e-0612f221e574
+  _name: Andrew Kumar
+  _slug: andrew-kumar
+  type: speaker
+  fields:
+    name:
+      type: text
+      value: Andrew Kumar
+    title:
+      type: text
+      value: VP Customer Solutions

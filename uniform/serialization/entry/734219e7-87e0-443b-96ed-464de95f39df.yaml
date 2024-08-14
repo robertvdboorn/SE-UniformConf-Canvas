@@ -1,0 +1,15 @@
+created: '2024-08-14T12:52:10.321491+00:00'
+modified: '2024-08-14T12:54:19.871258+00:00'
+pattern: false
+entry:
+  _id: 734219e7-87e0-443b-96ed-464de95f39df
+  _name: Richard Bausek
+  _slug: richard-bausek
+  type: speaker
+  fields:
+    name:
+      type: text
+      value: Richard Bausek
+    title:
+      type: text
+      value: Director of Product Management

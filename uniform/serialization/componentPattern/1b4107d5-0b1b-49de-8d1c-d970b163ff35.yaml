@@ -1,0 +1,68 @@
+composition:
+  _name: SessionList Entry Pattern
+  _id: 1b4107d5-0b1b-49de-8d1c-d970b163ff35
+  type: sessionList
+  slots:
+    sessions:
+      - _id: 8bd44888-56d6-4dda-aa46-705c0df8892d
+        type: $loop
+        slots:
+          body:
+            - _id: 2e362d8d-8a98-476d-9883-9da456c38758
+              type: session
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: >-
+                      /sessions/${#jptr:/Session List Content entries Loop
+                      Item/entry/_slug}
+                    type: projectMapNode
+                    nodeId: 9edde2b2-7f8b-4c20-b881-1610fac53114
+                    projectMapId: 83b7d143-c8f3-4d6c-9987-0e3a1cbdb1cd
+                    dynamicInputValues:
+                      session-slug: >-
+                        ${#jptr:/Session List Content entries Loop
+                        Item/entry/_slug}
+                title:
+                  type: text
+                  value: >-
+                    ${#jptr:/Session List Content entries Loop
+                    Item/entry/fields/title/value}
+                audience:
+                  type: multi-select
+                  value: >-
+                    ${#jptr:/Session List Content entries Loop
+                    Item/entry/fields/audience/value}
+                description:
+                  type: text
+                  value: >-
+                    ${#jptr:/Session List Content entries Loop
+                    Item/entry/fields/description/value}
+              _overridability:
+                hideLockedParameters: true
+        _dataResources:
+          Session List Content entries Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: '#jptr:/Session List Content/entries:fa=c'
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Session List Content:
+      type: sessionList
+      variables:
+        limit: '6'
+        search: ''
+        contentTypes: session
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      title: 'yes'
+    hideLockedParameters: true
+created: '2024-08-14T12:37:09.219483+00:00'
+modified: '2024-08-14T13:20:30.534218+00:00'
+pattern: true
+categoryId: 83b414db-ed2f-4780-b2b2-bf5103041b41

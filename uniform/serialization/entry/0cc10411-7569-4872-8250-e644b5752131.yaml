@@ -1,0 +1,179 @@
+created: '2024-08-14T12:31:39.693554+00:00'
+modified: '2024-08-14T12:59:51.68173+00:00'
+pattern: false
+entry:
+  _id: 0cc10411-7569-4872-8250-e644b5752131
+  _name: Building Scalable APIs with Uniform’s GraphQL Integration
+  _slug: building-scalable-apis-with-uniforms-graphql-integration
+  type: session
+  fields:
+    title:
+      type: text
+      value: Building Scalable APIs with Uniform’s GraphQL Integration
+    audience:
+      type: multi-select
+      value:
+        - developers
+    duration:
+      type: number
+      value: '45'
+    speakers:
+      type: contentReference
+      value: ${#jptr:/ref-0cc10411-7569-4872-8250-e644b5752131-speakers/entries}
+    description:
+      type: text
+      value: >-
+        Learn how to build and manage scalable APIs using Uniform’s GraphQL
+        integration.
+    longDescription:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'This session will focus on leveraging '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Uniform’s GraphQL integration
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' to build and manage robust and scalable APIs. Key topics include:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Introduction to GraphQL:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Understand the benefits of using GraphQL in your tech stack.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Uniform Integration:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' How to set up and configure Uniform’s GraphQL API to serve dynamic content.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Best Practices:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Tips and best practices for designing efficient and scalable APIs.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Real-world Examples:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Explore practical use cases and examples of successful GraphQL implementations.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Equip yourself with the knowledge to enhance your API
+                    development process and deliver exceptional experiences.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+          direction: ltr
+  _dataResources:
+    ref-0cc10411-7569-4872-8250-e644b5752131-speakers:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: fee494ff-1b7d-4709-a664-724025c2a088
