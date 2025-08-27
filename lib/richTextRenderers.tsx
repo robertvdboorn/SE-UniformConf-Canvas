@@ -2,11 +2,16 @@
 
 import React from 'react';
 import { RichTextRendererComponent } from '@uniformdev/canvas-react';
-import { RichTextNode } from '@uniformdev/richtext';
+import { ListNode, RichTextNode } from '@uniformdev/richtext';
 
 // Custom renderer for ordered lists
 export const MyOrderedListNode: RichTextRendererComponent<RichTextNode> = ({ children }) => {
   return <ol className="list-decimal">{children}</ol>;
+};
+
+// Custom renderer for unordered lists
+export const MyUnorderedListNode: RichTextRendererComponent<RichTextNode> = ({ children }) => {
+  return <ul className="list-disc">{children}</ul>;
 };
 
 // Custom renderer for list items
@@ -17,7 +22,8 @@ export const MyListItemNode: RichTextRendererComponent<RichTextNode> = ({ childr
 // Resolve the custom renderers based on node type
 export function resolveRichTextRenderer(node: RichTextNode): RichTextRendererComponent<RichTextNode> | undefined {
   if (node.type === 'list') {
-    return MyOrderedListNode;
+    const listNode = node as ListNode;
+    return listNode.tag === 'ol' ? MyOrderedListNode : MyUnorderedListNode;
   }
   if (node.type === 'listitem') {
     return MyListItemNode;
