@@ -638,7 +638,7 @@ composition:
               - l: 1_mkt
                 r: '1'
                 op: '>='
-            name: 'Session List: Personalized sessions for Developers'
+            name: 'Session List: Personalized sessions for Marketers'
     797c6293-da33-4958-904a-1b1eaad631ca|4f67a266-6413-41a8-875e-c41ae79ada38:
       parameters:
         name:
@@ -762,7 +762,7 @@ composition:
               - l: 1_dev
                 r: '1'
                 op: '>='
-            name: 'Session List: Personalized sessions for Developers'
+            name: 'Session List: Personalized sessions for Mixed'
     797c6293-da33-4958-904a-1b1eaad631ca|695d57f4-921f-42eb-9959-1ca883966319:
       parameters:
         name:
@@ -893,5 +893,5 @@ composition:
             name: ''
   _pattern: 779a5d02-bcb0-473d-bef8-39c6ef7714b6
 created: '2025-08-27T11:10:43.570506+00:00'
-modified: '2025-08-27T11:10:43.570506+00:00'
+modified: '2025-08-27T11:53:43.931598+00:00'
 pattern: false

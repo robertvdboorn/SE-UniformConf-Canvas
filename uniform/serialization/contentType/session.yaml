@@ -1,7 +1,7 @@
 id: session
 name: Session
 created: '2025-08-27T11:10:48.761717+00:00'
-updated: '2025-08-27T11:10:48.761717+00:00'
+updated: '2025-08-27T12:40:24.837204+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -85,4 +85,9 @@ description: ''
 icon: add-r
 type: contentType
 permissions: []
-previewConfigurations: []
+previewConfigurations:
+  - type: project-map
+    id: 9edde2b2-7f8b-4c20-b881-1610fac53114
+    label: Session Detail Page
+    dynamicInputs:
+      opening-keynote-shaping-the-future-of-digital-experiences: ${#jptr:/entry/_slug}
