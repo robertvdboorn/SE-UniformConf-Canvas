@@ -40,7 +40,7 @@ const SessionDetail = ({
 	const { context } = useUniformContext();
 	const audienceArray = Array.isArray(audience) ? audience : [audience];
 
-	const filteredSpeakers = speakers
+	const filteredSpeakers = (speakers || [])
 		.map((speaker) => ({
 			name: speaker?.entry?.fields?.name?.value || "Unknown Speaker",
 			title: speaker?.entry?.fields?.title?.value || "Unknown Title",
