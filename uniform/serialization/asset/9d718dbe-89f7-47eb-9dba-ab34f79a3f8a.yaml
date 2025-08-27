@@ -8,13 +8,13 @@ asset:
       value: success.svg
     file:
       type: file
-      value: 31ba531f-90ab-4837-8990-5cb6c96764f8
+      value: c333fd62-1266-4d93-9022-c4a27585061e
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/A9y5ggNPQtGNyhwpdvV7VQ-success.svg
+        https://img.eu.uniform.global/p/Lv4KnVWaR8KcuNi6TBqwPQ/J9QyqrwjTKCoAZehO72aBg-success.svg
       type: text
     size:
       value: 8721
@@ -26,5 +26,5 @@ asset:
       value: 560
       type: number
     custom: {}
-created: '2024-08-14T09:46:04.338112+00:00'
-modified: '2024-08-14T09:46:04.338112+00:00'
+created: '2025-08-27T11:10:13.022379+00:00'
+modified: '2025-08-27T11:10:13.022379+00:00'

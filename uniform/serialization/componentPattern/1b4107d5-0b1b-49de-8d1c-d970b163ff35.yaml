@@ -15,8 +15,7 @@ composition:
                   type: link
                   value:
                     path: >-
-                      /sessions/${#jptr:/Session List Content entries Loop
-                      Item/entry/_slug}
+                      /sessions/:opening-keynote-shaping-the-future-of-digital-experiences
                     type: projectMapNode
                     nodeId: 9edde2b2-7f8b-4c20-b881-1610fac53114
                     projectMapId: 83b7d143-c8f3-4d6c-9987-0e3a1cbdb1cd
@@ -62,7 +61,7 @@ composition:
       $viz: 'yes'
       title: 'yes'
     hideLockedParameters: true
-created: '2024-08-14T12:37:09.219483+00:00'
-modified: '2024-08-14T13:20:30.534218+00:00'
+created: '2025-08-27T11:10:41.655411+00:00'
+modified: '2025-08-27T11:10:41.655411+00:00'
 pattern: true
 categoryId: 83b414db-ed2f-4780-b2b2-bf5103041b41

@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://eu.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
 id: sessionDetail
 name: Session Detail
 icon: screen
@@ -7,37 +7,28 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
-    localizable: false
   - id: duration
     name: Duration
     type: number
-    helpText: ''
     typeConfig: null
-    localizable: false
   - id: audience
     name: Audience
     type: multi-select
-    helpText: ''
     typeConfig:
       options:
         - text: Developers
           value: developers
         - text: Marketers
           value: marketers
-    localizable: false
   - id: description
     name: Description
     type: text
-    helpText: ''
     typeConfig:
       multiline: true
-    localizable: false
   - id: longDescription
     name: Long Description
     type: richText
-    helpText: ''
     typeConfig:
       elements:
         builtIn:
@@ -63,17 +54,14 @@ parameters:
           - code
           - superscript
           - subscript
-    localizable: false
   - id: speakers
     name: Speakers
     type: json
-    helpText: ''
     typeConfig: {}
-    localizable: false
 categoryId: 83b414db-ed2f-4780-b2b2-bf5103041b41
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2024-08-14T13:07:55.336737+00:00'
-updated: '2024-08-14T13:07:55.336737+00:00'
+created: '2025-08-27T11:10:40.828024+00:00'
+updated: '2025-08-27T11:10:40.828024+00:00'

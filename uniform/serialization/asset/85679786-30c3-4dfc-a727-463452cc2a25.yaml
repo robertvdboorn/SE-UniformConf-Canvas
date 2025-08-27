@@ -8,13 +8,13 @@ asset:
       value: marketer.svg
     file:
       type: file
-      value: 0f12d2ec-0c55-49a0-aeec-8d3103c4b513
+      value: 3aaf6c1c-95b9-4f5e-8139-160e0e3e7d95
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/tEA9MhRXQBKHN9QOvmVODw-marketer.svg
+        https://img.eu.uniform.global/p/Lv4KnVWaR8KcuNi6TBqwPQ/ohWGW1OgStSuAm_qdyfEaQ-marketer.svg
       type: text
     size:
       value: 7021
@@ -26,5 +26,5 @@ asset:
       value: 560
       type: number
     custom: {}
-created: '2024-08-14T09:46:04.338112+00:00'
-modified: '2024-08-14T09:46:04.338112+00:00'
+created: '2025-08-27T11:10:12.191269+00:00'
+modified: '2025-08-27T11:10:12.191269+00:00'

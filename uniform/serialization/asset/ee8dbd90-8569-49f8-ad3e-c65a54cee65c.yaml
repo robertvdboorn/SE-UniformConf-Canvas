@@ -8,13 +8,13 @@ asset:
       value: presentation.webp
     file:
       type: file
-      value: dedbfcf2-141c-4b11-a6dc-94ceae2b9e7c
+      value: 536c7eec-01a6-4c34-abd7-fc17618edba8
     mediaType:
       value: image/webp
       type: text
     url:
       value: >-
-        https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/mMP0jT8zRIqSsqN0UxJ9gg-presentation.webp
+        https://img.eu.uniform.global/p/Lv4KnVWaR8KcuNi6TBqwPQ/DM7RBtNkSpqi6V8Mb8exNw-presentation.webp
       type: text
     size:
       value: 19592
@@ -26,5 +26,5 @@ asset:
       value: 426
       type: number
     custom: {}
-created: '2024-08-14T10:14:34.302766+00:00'
-modified: '2024-08-14T10:14:34.302766+00:00'
+created: '2025-08-27T11:10:13.955354+00:00'
+modified: '2025-08-27T11:10:13.955354+00:00'

@@ -1,5 +1,7 @@
 id: sessionList
 displayName: Session List
+ttl: 30
+body: ''
 path: /query
 custom:
   allowedContentTypes:

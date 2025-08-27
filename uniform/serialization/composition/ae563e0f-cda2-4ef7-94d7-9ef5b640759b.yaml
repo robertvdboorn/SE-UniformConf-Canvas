@@ -55,27 +55,27 @@ composition:
                   type: text
                   value: 383a0cdd-606a-4132-bae5-2477d67e1a71
                 url:
-                  type: text
                   value: >-
-                    https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/OFPHLwKAQ5u-5_o6hnDwcQ-developer.svg
+                    https://img.eu.uniform.global/p/Lv4KnVWaR8KcuNi6TBqwPQ/P3LE6iucRDCBnQ-d3VhdHw-developer.svg
+                  type: text
                 file:
                   type: file
                   value: 32b53d39-e824-4170-8aae-8fcd38213838
                 size:
-                  type: number
                   value: 2440
+                  type: number
                 title:
                   type: text
                   value: developer.svg
                 width:
-                  type: number
                   value: 560
+                  type: number
                 height:
-                  type: number
                   value: 560
+                  type: number
                 mediaType:
-                  type: text
                   value: image/svg+xml
+                  type: text
               _source: uniform-assets
         title:
           type: text
@@ -104,6 +104,6 @@ composition:
               text:
                 type: text
                 value: Go Home
-created: '2024-08-14T08:46:48.55481+00:00'
-modified: '2024-08-14T12:41:42.314003+00:00'
+created: '2025-08-27T11:10:43.338057+00:00'
+modified: '2025-08-27T11:10:43.338057+00:00'
 pattern: false

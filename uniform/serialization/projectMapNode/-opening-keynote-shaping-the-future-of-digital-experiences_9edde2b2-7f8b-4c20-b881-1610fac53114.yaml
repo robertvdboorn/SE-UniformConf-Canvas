@@ -1,9 +1,9 @@
 id: 9edde2b2-7f8b-4c20-b881-1610fac53114
 name: Dynamic Session Page
 order: 500
-path: /sessions/:session-slug
+path: /sessions/:opening-keynote-shaping-the-future-of-digital-experiences
 type: composition
-pathSegment: ':session-slug'
+pathSegment: ':opening-keynote-shaping-the-future-of-digital-experiences'
 data:
   previewValue: opening-keynote
 compositionId: a31db644-5c9c-4795-b5f1-7820223bfcae

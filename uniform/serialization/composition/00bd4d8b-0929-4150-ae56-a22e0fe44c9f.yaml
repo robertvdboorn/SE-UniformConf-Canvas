@@ -56,27 +56,27 @@ composition:
                   type: text
                   value: 85679786-30c3-4dfc-a727-463452cc2a25
                 url:
-                  type: text
                   value: >-
-                    https://img.uniform.global/p/E9GQpKfBS-W-5if3NzOJeQ/tEA9MhRXQBKHN9QOvmVODw-marketer.svg
+                    https://img.eu.uniform.global/p/Lv4KnVWaR8KcuNi6TBqwPQ/ohWGW1OgStSuAm_qdyfEaQ-marketer.svg
+                  type: text
                 file:
                   type: file
                   value: 0f12d2ec-0c55-49a0-aeec-8d3103c4b513
                 size:
-                  type: number
                   value: 7021
+                  type: number
                 title:
                   type: text
                   value: marketer.svg
                 width:
-                  type: number
                   value: 560
+                  type: number
                 height:
-                  type: number
                   value: 560
+                  type: number
                 mediaType:
-                  type: text
                   value: image/svg+xml
+                  type: text
               _source: uniform-assets
         title:
           type: text
@@ -105,6 +105,6 @@ composition:
               text:
                 type: text
                 value: Go Home
-created: '2024-08-14T08:46:48.756103+00:00'
-modified: '2024-08-14T12:43:12.92947+00:00'
+created: '2025-08-27T11:10:43.147861+00:00'
+modified: '2025-08-27T11:10:43.147861+00:00'
 pattern: false

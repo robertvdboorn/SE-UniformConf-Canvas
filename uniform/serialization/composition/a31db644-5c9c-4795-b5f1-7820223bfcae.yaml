@@ -7,7 +7,7 @@ composition:
     Session by Slug Content:
       type: sessionBySlug
       variables:
-        slug: ${session-slug}
+        slug: ${opening-keynote-shaping-the-future-of-digital-experiences}
         locale: ''
   _overrides:
     a31db644-5c9c-4795-b5f1-7820223bfcae|35fa4ccc-246f-4988-8415-3bf916ce7c6d:
@@ -40,6 +40,6 @@ composition:
                   ${#jptr:/Session by Slug
                   Content/entry/fields/longDescription/value}
   _pattern: 779a5d02-bcb0-473d-bef8-39c6ef7714b6
-created: '2024-08-14T12:49:01.413365+00:00'
-modified: '2024-08-14T13:12:59.186678+00:00'
+created: '2025-08-27T11:10:42.828455+00:00'
+modified: '2025-08-27T11:15:09.932647+00:00'
 pattern: false

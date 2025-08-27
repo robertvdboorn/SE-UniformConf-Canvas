@@ -1,7 +1,7 @@
 id: speaker
 name: Speaker
-created: '2024-08-14T12:52:05.663607+00:00'
-updated: '2024-08-14T12:52:36.785026+00:00'
+created: '2025-08-27T11:10:48.818403+00:00'
+updated: '2025-08-27T11:10:48.818403+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -23,3 +23,4 @@ description: ''
 icon: music-speaker
 type: contentType
 permissions: []
+previewConfigurations: []
