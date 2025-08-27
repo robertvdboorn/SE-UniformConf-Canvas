@@ -5,6 +5,6 @@ path: /sessions/:opening-keynote-shaping-the-future-of-digital-experiences
 type: composition
 pathSegment: ':opening-keynote-shaping-the-future-of-digital-experiences'
 data:
-  previewValue: opening-keynote
+  previewValue: opening-keynote-shaping-the-future-of-digital-experiences
 compositionId: a31db644-5c9c-4795-b5f1-7820223bfcae
 projectMapId: 83b7d143-c8f3-4d6c-9987-0e3a1cbdb1cd
